@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
-
 @import "bootstrap";
 
 .booyah-box {
@@ -21,7 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: url('triangle-mosaic.png');
-  font-family: 'Corbel', sans-serif;
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+
 }
 
 .navbar {
@@ -30,5 +29,6 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'cantarelloblique', sans-serif;
+  font-size:26px;
 }
