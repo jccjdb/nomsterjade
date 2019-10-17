@@ -14,32 +14,21 @@
   padding: 20px;
 }
 
-.article.post{
-  -webkit-box-shadow:1px 1px 2px 0 #d0d0d0;
-  -moz-box-shadow:1px 1px 2px 0 #d0d0d0;
-  box-shadow:1px 1px 2px 0 #d0d0d0
-}
-.article-container article.post{
-  background:#fff;
-  border:1px solid #ccc;
-  border-color:#e4e4e4 #bebebd #bebebd #e4e4e4;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin:0;
   padding:0;
 }
 
 body {
-    background: url('/assets/triangle-mosaic.png');
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  background: url('triangle-mosaic.png');
+  font-family: 'Corbel', sans-serif;
 }
 
 .navbar {
   background: image_url('prism.png');
-  box-shadow: 1px 2px 3px #2a2a2a
+  box-shadow: 1px 2px 3px #2a2a2a;
 }
 
 .navbar-inverse .navbar-brand {
- font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Liu Jian Mao Cao', cursive;
 }
