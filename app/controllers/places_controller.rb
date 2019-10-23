@@ -2,7 +2,7 @@ class PlacesController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create, :edit, :update]
 
   def index
-    @places = Place.all
+    @places = Place.paginate(page: params[:page], per_page: 4)
   end
 
   def new
@@ -59,3 +59,9 @@ end
     params.require(:place).permit(:name, :description, :address)
   end
 end
+
+  def link(text, target, attributes = {})
+  attributes['data-remote'] = true
+  super
+end
+
