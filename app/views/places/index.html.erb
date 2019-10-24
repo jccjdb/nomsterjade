@@ -13,5 +13,5 @@
 <% end %>
 
 <div class="col-10 offset-1">
-<%= will_paginate @places %>
+<%= will_paginate @places, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
 </div>
