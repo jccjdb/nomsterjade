@@ -73,6 +73,8 @@ gem 'will_paginate', '~> 3.2.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
 
+gem "figaro"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end

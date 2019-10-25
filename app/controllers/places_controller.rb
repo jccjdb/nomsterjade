@@ -62,6 +62,7 @@ end
 
   def link(text, target, attributes = {})
   attributes['data-remote'] = true
+  Places.paginate page: params[:page], per_page: 10
   super
 end
 
