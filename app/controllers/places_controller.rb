@@ -20,6 +20,7 @@ end
   def show
     @place = Place.find(params[:id])
     @comment = Comment.new
+    @photo = Photo.new
   end
 
   def edit
@@ -66,4 +67,3 @@ end
   Places.paginate page: params[:page], per_page: 10
   super
 end
-
