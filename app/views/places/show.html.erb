@@ -127,15 +127,14 @@
 
 <div class="clear"></div>
 
-<div class="row">
   <% @place.photos.each do |photo| %>
     <div class="booyah-box col-10 offset-1">
       <div>
-      <%= image_tag 'pretty.jpg', class: 'img-fluid' %>
+      <%= image_tag photo.picture.url %>
+      <%= photo.caption %>
     </div>
     <% end %>
   </div>
-</div>
 
 
 
