@@ -69,3 +69,19 @@ blockquote p {
 .clear {
   clear: both;
 }
+
+.show-image-size {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-display {
+  background: #fff;
+  padding: .25rem;
+  margin-bottom: 2rem;
+  quotes: "\201C""\201D";
+  text-align: center;
+}

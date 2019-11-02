@@ -74,6 +74,7 @@ gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
 
 gem "figaro"
+gem "fog-aws"
 
 gem 'carrierwave', '~> 1.0'
 
